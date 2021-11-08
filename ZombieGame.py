@@ -257,8 +257,8 @@ def nextGame():
     if cont == 'n':
         return dont_cont()
     if cont == 'y':
-        phealth += 100
-        zhealth += 100
+        phealth = 100
+        zhealth = 100
         return mainGame()
 
 
